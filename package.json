@@ -1,0 +1,27 @@
+{
+  "name": "ldp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "htmlhint": "./node_modules/.bin/htmlhint index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barrierok/layout-designer-project-lvl1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Barrierok/layout-designer-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/Barrierok/layout-designer-project-lvl1#readme",
+  "dependencies": {
+    "surge": "^0.21.3"
+  },
+  "devDependencies": {
+    "htmlhint": "^0.11.0",
+    "stylelint-config-standard": "^19.0.0"
+  }
+}
