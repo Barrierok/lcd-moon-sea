@@ -1,11 +1,15 @@
 {
   "name": "ldp1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Layout of the landing of the Lunar Sea residential complex.",
+  "keywords": [
+    "landing",
+    "layout",
+    "flex"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "htmlhint": "./node_modules/.bin/htmlhint index.html"
+    "htmlhint": "./node_modules/.bin/htmlhint landing/index.html"
   },
   "repository": {
     "type": "git",
