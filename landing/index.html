@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="flex">
-      <div class="logo-content p-1 flex flex-align-center">
+    <header class="flex flex-justify-beetwen bold">
+      <div class="logo-content p-0-1 flex flex-align-center flex-justify-beetwen">
         <img id="logo-small" src="./images/logo.svg" alt="Лого">
         <span>Лунное море</span>
       </div>
-      <nav class="menu">
-        <ul class="flex p-1 flex-align-center">
+      <nav class="menu flex flex-align-center">
+        <ul class="flex flex-justify-beetwen p-0-1 w100">
           <li><a href="#">Преимущества</a></li>
           <li><a href="#">О ЖК</a></li>
           <li><a href="#">Места для отдыха</a></li>
@@ -22,7 +22,12 @@
       </nav>
     </header>
     <main>
-      Контент
+      <section class="banner flex flex-align-center bold">
+        <img src="./images/logo.svg" alt="Лого" id="logo-big">
+        <h1 class="white">ЖК "Лунное море"</h1>
+        <p class="description white">Место, откуда не хочется улетать</p>
+        <a class="button white" href="#">Забронировать</a>
+      </section>
     </main>
     <footer>
       Подвал
