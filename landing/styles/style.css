@@ -140,7 +140,7 @@ header {
 }
 
 /* Форма */
-.form-section {
+#form-section {
   padding: 3rem 0;
 }
 
@@ -188,6 +188,7 @@ input {
   color: #07b896;
   font-weight: 400;
   padding: 0.4rem 1.2rem;
+  background-color: #f7f7f7;
 }
 
 .button-form:hover {
