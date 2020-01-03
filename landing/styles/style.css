@@ -9,7 +9,7 @@ html {
   padding: 0;
 }
 
-ul {
+ol {
   list-style: none;
 }
 
@@ -73,19 +73,6 @@ p {
   flex-direction: column;
 }
 
-.container {
-  width: 1000px;
-  padding: 3rem 0;
-}
-
-.text-content {
-  width: 400px;
-}
-
-.img-content {
-  height: 15rem;
-}
-
 .bg-color-gray {
   background-color: #f7f7f7;
 }
@@ -137,6 +124,19 @@ header {
 /* Главный контент */
 .advantages {
   width: 310px;
+}
+
+.container {
+  width: 1000px;
+  padding: 3rem 0;
+}
+
+.text-content {
+  width: 400px;
+}
+
+.img-content {
+  height: 15rem;
 }
 
 /* Форма */
@@ -193,4 +193,28 @@ input {
 
 .button-form:hover {
   cursor: pointer;
+}
+
+/* Подвал */
+footer {
+  background-color: #303845;
+}
+
+h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer-content {
+  width: 15rem;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+.year {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
 }
