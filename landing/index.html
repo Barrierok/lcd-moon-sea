@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>ЖК "Лунное море" barrier</title>
     <link rel="stylesheet" href="styles/style.css" />
@@ -26,8 +27,8 @@
       <p class="description white">Место, откуда не хочется улетать</p>
       <a class="button white" href="#form-section">Забронировать</a>
     </section>
-    <main class="flex flex-direction-column flex-align-center">
-      <section id="advantages" class="flex flex-justify-center w100">
+    <main class="flex flex-direction-column">
+      <div id="advantages">
         <div class="container flex flex-justify-beetwen">
           <article class="advantages">
             <h2>Уникальный вид</h2>
@@ -42,8 +43,8 @@
             <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
           </article>
         </div>
-      </section>
-      <section id="about" class="flex flex-justify-center bg-color-gray w100">
+      </div>
+      <div id="about" class="bg-color-gray">
         <div class="flex flex-justify-around container">
           <article class="text-content">
             <h2>О ЖК «Лунное море»</h2>
@@ -52,8 +53,8 @@
           </article>
           <img src="./images/moon-1.jpg" alt="" class="img-content">
         </div>
-      </section>
-      <section id="rest" class="flex flex-justify-center w100">
+      </div>
+      <div id="rest">
         <div class="flex flex-justify-around container">
           <img src="./images/moon-2.jpg" alt="" class="img-content">
           <article class="text-content">
@@ -62,11 +63,11 @@
             <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
           </article>
         </div>
-      </section>
+      </div>
     </main>
     <section id="form-section" class="flex flex-direction-column flex-align-center bg-color-gray">
       <h2>Оставьте заявку сегодня!</h2>
-      <form action="" class="flex flex-direction-column">
+      <form class="flex flex-direction-column">
         <fieldset class="rooms flex flex-direction-column">
           <legend>Параметры квартиры</legend>
           <div class="field">
@@ -104,29 +105,29 @@
         <input class="button-form" type="submit" value="Отправить">
       </form>
     </section>
-    <footer class="flex flex-justify-center white">
-      <div class="container flex flex-justify-beetwen w100">
-        <section class="footer-content">
+    <footer class="white">
+      <div class="container flex flex-justify-beetwen">
+        <div class="footer-content">
           <div class="logo-content flex flex-align-center flex-justify-beetwen">
             <img class="logo-small" src="./images/logo.svg" alt="Лого">
             <span>Лунное море</span>
           </div>
           <span class="year">© 2032 год</span>
-        </section>
-        <section class="footer-content flex flex-direction-column flex-align-center">
+        </div>
+        <div class="footer-content flex flex-direction-column flex-align-center">
           <h3>Проектная документация</h3>
           <ul>
             <li><a href="#">Скачать</a></li>
             <li><a href="#">Посмотреть на сайте</a></li>
           </ul>
-        </section>
-        <section class="footer-content flex flex-direction-column flex-align-center">
+        </div>
+        <div class="footer-content flex flex-direction-column flex-align-center">
           <h3>О застройщике</h3>
           <ul>
             <li><a href="#">Отзывы</a></li>
             <li><a href="#">Сайт компании</a></li>
           </ul>
-        </section>
+        </div>
       </div>
     </footer>
   </body>
