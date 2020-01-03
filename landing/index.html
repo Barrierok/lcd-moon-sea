@@ -44,7 +44,7 @@
           </article>
         </div>
       </section>
-      <section class="flex flex-justify-center about w100">
+      <section class="flex flex-justify-center bg-color-gray w100">
         <div class="flex flex-justify-around container">
           <article class="text-content">
             <h2>О ЖК «Лунное море»</h2>
@@ -65,8 +65,46 @@
         </div>
       </section>
     </main>
-    <footer>
-      Подвал
-    </footer>
+    <section class="form-section flex flex-direction-column flex-align-center bg-color-gray">
+      <h2>Оставьте заявку сегодня!</h2>
+      <form action="" class="flex flex-direction-column">
+        <fieldset class="rooms flex flex-direction-column">
+          <legend>Параметры квартиры</legend>
+          <div class="field">
+            <label class="title" for="rooms">Количество комнат:</label>
+            <select name="rooms" id="rooms">
+              <option value="1">1</option>
+              <option value="3">3</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="field">
+            <label class="title" for="decoration">Отделка:</label>
+            <select name="decoration" id="decoration">
+              <option value="Без отделки">Без отделки</option>
+              <option value="Бюджетная">Бюджетная</option>
+              <option value="Люкс">Люкс</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset class="contacts flex flex-direction-column">
+          <legend>Контактная информация</legend>
+          <div class="field">
+            <label class="title" for="name">Имя:</label>
+            <input type="text" id="name">
+          </div>
+          <div class="field">
+            <label class="title" for="phone">Телефон:</label>
+            <input type="text" id="phone">
+          </div>
+          <div class="field">
+            <label class="title" for="email">E-mail:</label>
+            <input type="email" id="email">
+          </div>
+        </fieldset>
+        <input class="button-form" type="submit" value="Отправить">
+      </form>
+    </section>
+    <footer></footer>
   </body>
 </html>
