@@ -182,7 +182,10 @@ legend {
 
 select {
   width: 8rem;
-  padding: 0.3rem 0;
+  padding: 0.3rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 1px solid #e4e4e4;
 }
 
 option {
@@ -193,6 +196,7 @@ input {
   border: 1px solid #e4e4e4;
   border-radius: 0.4rem;
   padding: 0.3rem;
+  width: 8rem;
 }
 
 .button-form {
