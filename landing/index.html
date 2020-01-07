@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header class="flex flex-justify-beetwen bold">
-      <div class="logo-content p-0-1 flex flex-align-center flex-justify-beetwen">
+    <header class="flex flex-justify-beetwen bold bg-color-white w100">
+      <div class="logo-content flex flex-align-center flex-justify-beetwen p-0-1">
         <img class="logo-small" src="./images/logo.svg" alt="Лого">
         <span>Лунное море</span>
       </div>
-      <nav class="menu flex flex-align-center">
-        <ol class="flex flex-justify-beetwen p-0-1 w100">
+      <nav class="menu flex flex-align-center p-0-1">
+        <ol class="flex flex-justify-beetwen w100">
           <li><a href="#advantages">Преимущества</a></li>
           <li><a href="#about">О ЖК</a></li>
           <li><a href="#rest">Места для отдыха</a></li>
@@ -22,7 +22,7 @@
       </nav>
     </header>
     <section class="banner flex flex-align-center flex-direction-column bold">
-      <img src="./images/logo.svg" alt="Лого" id="logo-big">
+      <img src="./images/logo.svg" alt="Лого" class="logo-big">
       <h1 class="white">ЖК "Лунное море"</h1>
       <p class="description white">Место, откуда не хочется улетать</p>
       <a class="button white" href="#form-section">Забронировать</a>
@@ -65,14 +65,14 @@
         </div>
       </section>
     </main>
-    <section id="form-section" class="flex flex-direction-column flex-align-center bg-color-gray">
+    <section id="form-section" class="form-section flex flex-direction-column flex-align-center bg-color-gray">
       <h2>Оставьте заявку сегодня!</h2>
       <form class="flex flex-direction-column">
         <fieldset class="rooms flex flex-direction-column">
-          <legend>Параметры квартиры</legend>
+          <legend class="bold">Параметры квартиры</legend>
           <div class="field">
             <label class="title" for="rooms">Количество комнат:</label>
-            <select name="rooms" id="rooms">
+            <select class="input-group bg-color-white" name="rooms" id="rooms">
               <option value="1">1</option>
               <option value="3">3</option>
               <option value="5">5</option>
@@ -80,7 +80,7 @@
           </div>
           <div class="field">
             <label class="title" for="decoration">Отделка:</label>
-            <select name="decoration" id="decoration">
+            <select name="decoration" id="decoration" class="input-group bg-color-white">
               <option value="Без отделки">Без отделки</option>
               <option value="Бюджетная">Бюджетная</option>
               <option value="Люкс">Люкс</option>
@@ -88,21 +88,21 @@
           </div>
         </fieldset>
         <fieldset class="contacts flex flex-direction-column">
-          <legend>Контактная информация</legend>
+          <legend class="bold">Контактная информация</legend>
           <div class="field">
             <label class="title" for="name">Имя:</label>
-            <input type="text" id="name">
+            <input class="input-group" type="text" id="name">
           </div>
           <div class="field">
             <label class="title" for="phone">Телефон:</label>
-            <input type="text" id="phone">
+            <input class="input-group" type="text" id="phone">
           </div>
           <div class="field">
             <label class="title" for="email">E-mail:</label>
-            <input type="email" id="email">
+            <input class="input-group" type="email" id="email">
           </div>
         </fieldset>
-        <input class="button-form" type="submit" value="Отправить">
+        <button type="submit" class="bg-color-gray bold button-form">Отправить</button>
       </form>
     </section>
     <footer class="white">
@@ -115,14 +115,14 @@
           <span class="year">© 2032 год</span>
         </div>
         <div class="footer-content flex flex-direction-column flex-align-center">
-          <h3>Проектная документация</h3>
+          <h3 class="bold">Проектная документация</h3>
           <ul>
             <li><a href="#">Скачать</a></li>
             <li><a href="#">Посмотреть на сайте</a></li>
           </ul>
         </div>
         <div class="footer-content flex flex-direction-column flex-align-center">
-          <h3>О застройщике</h3>
+          <h3 class="bold">О застройщике</h3>
           <ul>
             <li><a href="#">Отзывы</a></li>
             <li><a href="#">Сайт компании</a></li>
