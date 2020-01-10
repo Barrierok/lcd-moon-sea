@@ -26,9 +26,17 @@ a {
   color: inherit;
 }
 
+h1 {
+  font-size: 2.5rem;
+}
+
 h2 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
 }
 
 p {
@@ -36,12 +44,16 @@ p {
   padding: 0.5rem 0;
 }
 
+ul {
+  margin-left: 2rem;
+}
+
 /* Для многоразового использования */
 .w100 {
   width: 100%;
 }
 
-.p-0-1 {
+.px-1 {
   padding: 0 1rem;
 }
 
@@ -113,7 +125,7 @@ header {
   width: 21rem;
 }
 
-.menu > ol {
+.list-style-none {
   list-style: none;
 }
 
@@ -123,10 +135,6 @@ header {
   background-size: cover;
   margin-top: 3rem;
   font-size: 1.1rem;
-}
-
-h1 {
-  font-size: 2.5rem;
 }
 
 .logo-big {
@@ -209,16 +217,8 @@ footer {
   background-color: var(--black);
 }
 
-h3 {
-  margin-bottom: 1rem;
-}
-
 .footer-content {
   width: 18rem;
-}
-
-ul {
-  margin-left: 2rem;
 }
 
 .year {
